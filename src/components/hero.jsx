@@ -1,4 +1,4 @@
-import useAnalyticsEventTracker from "./integrations/useAnalyticsEventTracker";
+import useAnalyticsEventTracker from "./integrations/useanalyticseventtracker";
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect } from "react";
 import '../App.css';
