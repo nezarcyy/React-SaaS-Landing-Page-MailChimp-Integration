@@ -15,8 +15,7 @@ import Notification1 from './components/ui/notification1';
 import ReactGA from 'react-ga';
 
 
-const TRACKING_ID = "G-CVMLH83CX7";
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize('G-CVMLH83CX7');
 
 
 function App() {
