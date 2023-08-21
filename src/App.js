@@ -12,11 +12,14 @@ import Separator_b from './components/ui/separator_b';
 import Separator_a from './components/ui/separator_a';
 import Service from './components/service';
 import Notification1 from './components/ui/notification1';
-import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module'
 
 
-const TRACKING_ID = "G-CVMLH83CX7";
-ReactGA.initialize(TRACKING_ID);
+const tagManagerArgs = {
+  gtmId: 'G-CVMLH83CX7'
+}
+TagManager.initialize(tagManagerArgs)
+
 
 function App() {
     const particlesInit = useCallback(main => {
