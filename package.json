@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@vercel/analytics": "^1.0.2",
     "alpinejs": "^3.12.3",
     "axios": "^1.4.0",
     "axios-jsonp": "^1.0.4",

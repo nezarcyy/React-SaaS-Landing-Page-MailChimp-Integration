@@ -12,10 +12,7 @@ import Separator_b from './components/ui/separator_b';
 import Separator_a from './components/ui/separator_a';
 import Service from './components/service';
 import Notification1 from './components/ui/notification1';
-import ReactGA from 'react-ga';
-
-
-ReactGA.initialize('G-CVMLH83CX7');
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -26,6 +23,7 @@ function App() {
     return (
         <div className="App">
             <Particles options={particlesOptions} init={particlesInit} />
+            <Analytics />
             <Header />
             <Hero />
             <Separator_a />

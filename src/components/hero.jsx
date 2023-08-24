@@ -1,4 +1,3 @@
-import useAnalyticsEventTracker from "./integrations/useanalyticseventtracker";
 import { Link as ScrollLink } from "react-scroll";
 import { useEffect } from "react";
 import '../App.css';
@@ -17,7 +16,6 @@ const Hero = () => {
     }, 40);
   }, []);
 
-  const gaEventTracker = useAnalyticsEventTracker('Contact us');
 
 
   return (
@@ -35,7 +33,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <ScrollLink to="contact" smooth={true} duration={900}>
-            <button href="#" onClick={()=>gaEventTracker('call')} className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-400 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <button href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-400 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
 
               Subscribe Now!
 
