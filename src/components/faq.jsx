@@ -2,9 +2,9 @@ import React from "react";
 
 function FAQ() {
     return (
-        <section class="scroll-smooth bg-black/40">
+        <section class="scroll-smooth bg-black">
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-200 sm:text-4xl dark:text-white">Frequently asked questions</h2>
+                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-200 sm:text-4xl dark:text-white">Any Questions? Look Here</h2>
                 <hr class="my-10 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-100 dark:opacity-100" />
                 <div>
                     <div class="mb-10">

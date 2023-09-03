@@ -62,7 +62,7 @@
 #squareright {
     height: 50px;
     width: 50px;
-    background-image: linear-gradient(to right, rgba(14,15,16,0), rgba(14,15,16,1));
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1));
     border-radius: 10rem 0 0 10rem;
 }
 
@@ -70,6 +70,6 @@
 #squareleft {
     height: 50px;
     width: 50px;
-    background-image: linear-gradient(to left, rgba(14,15,16,0), rgba(14,15,16,1));
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
     border-radius: 0 10rem 10rem 0;
 }

@@ -1,40 +1,24 @@
 import React, { useCallback } from 'react';
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
 import './App.css';
-import particlesOptions from "./particles.json";
-import Hero from './components/hero';
-import Header from './components/ui/header';
-import Features from './components/features';
-import Contact from './components/contact';
-import Footer from './components/ui/footer';
-import Separator_b from './components/ui/separator_b';
-import Separator_a from './components/ui/separator_a';
-import Service from './components/service';
-import Notification1 from './components/ui/notification1';
 import { Analytics } from '@vercel/analytics/react';
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from './pages/home';
+import PrivacyPolicy from './pages/privacypolicy';
+import TermsOfUse from './pages/terms-of-use';
 
 function App() {
-    const particlesInit = useCallback(main => {
-        loadFull(main);
-    }, [])
+
 
     return (
-        <div className="App">
-            <Particles options={particlesOptions} init={particlesInit} />
+        <Router>
             <Analytics />
-            <Header />
-            <Hero />
-            <Separator_a />
-            <Features />
-            <Separator_b />
-            <Contact />
-            <Service />
-            <Footer />
-            <Notification1 />
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms-of-use" element={<TermsOfUse />} />
+            </Routes>
 
+        </Router>
     );
 }
 

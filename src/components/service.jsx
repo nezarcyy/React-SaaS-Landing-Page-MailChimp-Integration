@@ -11,7 +11,7 @@ const Service = () => {
   };
 
   return (
-    <section className="scroll-smooth bg-black/40">
+    <section className="scroll-smooth bg-black">
       <h2 className="text-3xl tracking-tight mb-8 font-extrabold text-gray-200 sm:text-4xl dark:text-white">Any Questions? Look Here</h2>
       <div className="py-8 px-4 mx-auto max-w-screen-lg sm:py-16 lg:px-6">
         <div className="space-y-4">

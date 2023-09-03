@@ -37,7 +37,7 @@ function Contact() {
 
   return (
 
-    <section class="scroll-smooth bg-black/40">
+    <section class="scroll-smooth bg-black">
 
       <div class="py-12 px-4 mx-auto max-w-screen-lg lg:py-10 lg:px-3">
         <div class="mx-auto max-w-screen-md sm:text-center">
@@ -71,7 +71,7 @@ function Contact() {
             </div>
 
           </div>
-          <div class="mb-12 lg:w-96 mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">We care about the protection of your data. <a href="https://nextierlab.tiiny.site/" class="font-medium text-yellow-300 dark:text-primary-500 hover:underline" target="_blank" rel="noreferrer">Read our Privacy Policy</a>.</div>
+          <div class="mb-12 lg:w-96 mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">We care about the protection of your data. <a href="/privacy-policy" class="font-medium text-yellow-300 dark:text-primary-500 hover:underline" target="_blank" rel="noreferrer">Read our Privacy Policy</a>.</div>
         </form>
 
 

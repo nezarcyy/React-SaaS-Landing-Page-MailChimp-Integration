@@ -1,6 +1,6 @@
 function Separator_a() {
     return (
-        <div className="py-3 px-1 scroll-smooth bg-black/40">
+        <div className="py-3 px-1 scroll-smooth bg-black">
             <div className="mb-10 mt-5">
                 <div className="animate-fade-down animate-once">
                 <svg className="animate-bounce animate-infinite animate-duration-[2000ms] animate-delay-[2000ms] animate-ease-linear inline-flex justify-center items-center" viewBox="10 30 80 40" width="30">

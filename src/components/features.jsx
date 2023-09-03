@@ -4,7 +4,7 @@ function Features() {
 
   return (
 
-    <div className="bg-black/40" style={{ fontFamily: '"Lato", sans-serif' }}>
+    <div className="bg-black" style={{ fontFamily: '"Lato", sans-serif' }}>
       <div role="contentinfo" className="flex items-center flex-col px-4">
         <hh1 className="focus:outline-none text-3xl lg:text-3xl font-bold text-center leading-10 text-gray-200 lg:w-5/12 md:w-9/12 pt-5">Empowering Features for Your Success</hh1>
       </div>
